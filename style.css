@@ -1,0 +1,16 @@
+.imgbutton {
+    height: 250px;
+    width: 425px;
+    transition: transform .2s;
+    margin: 13px;
+    border: 7px solid brown;
+}
+
+.imgbutton:hover {
+    transform: scale(1.075);
+}
+
+.imgbutton:focus {
+    transition: transform .05s ;
+    transform: rotate(180deg);
+}
